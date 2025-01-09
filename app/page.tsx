@@ -1,11 +1,11 @@
-import ProblemPage from "@/page/ProblemPage";
+import ProblemPage from "@/pages/ProblemPage";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-neutral-900">
-      <Navbar/>
+      {/* <Navbar/> */}
       <ProblemPage/>
     </div>
   );

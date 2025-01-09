@@ -57,22 +57,9 @@ export default function Component() {
                   className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
                   prefetch={false}
                 >
-                  About
+                  Problems
                 </Link>
-                <Link
-                  href="#"
-                  className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  prefetch={false}
-                >
-                  Services
-                </Link>
-                <Link
-                  href="#"
-                  className="text-sm font-medium text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
-                  prefetch={false}
-                >
-                  Contact
-                </Link>
+            
               </div>
             </SheetContent>
           </Sheet>

@@ -10,6 +10,10 @@ export default {
   theme: {
   	extend: {
   		colors: {
+			coral: {
+				500: '#FF7F50',
+				600: '#FFA07A',
+			  },
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -55,7 +59,20 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		}, animation: {
+			fadeIn: 'fadeIn 1s ease-in',
+			slideUp: 'slideUp 0.5s ease-out',
+		  },
+		  keyframes: {
+			fadeIn: {
+			  '0%': { opacity: '0' },
+			  '100%': { opacity: '1' },
+			},
+			slideUp: {
+			  '0%': { transform: 'translateY(20px)', opacity: '0' },
+			  '100%': { transform: 'translateY(0)', opacity: '1' },
+			},
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],

@@ -1,6 +1,6 @@
-import React from 'react';
+import { FC } from 'react';
 
-const Testimonials = () => {
+const Testimonials: FC = () => {
   return (
     <section id="testimonials" className="py-20 bg-neutral-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,7 +21,7 @@ const Testimonials = () => {
                 <p className="text-gray-400">Cracked coder</p>
               </div>
             </div>
-            <p className="text-gray-300 mb-4">"This app is so good, I almost forgot I built it myself."</p>
+            <p className="text-gray-300 mb-4">&quot;This app is so good, I almost forgot I built it myself.&quot;</p>
           </div>
 
           {/* Testimonial 2 */}
@@ -35,7 +35,7 @@ const Testimonials = () => {
                 <p className="text-gray-400">Professional Typewriter</p>
               </div>
             </div>
-            <p className="text-gray-300 mb-4">"Finally, an app that understands me… because I wrote it."</p>
+            <p className="text-gray-300 mb-4">&quot;Finally, an app that understands me… because I wrote it.&quot;</p>
           </div>
 
           {/* Testimonial 3 */}
@@ -49,7 +49,7 @@ const Testimonials = () => {
                 <p className="text-gray-400">Wifi router</p>
               </div>
             </div>
-            <p className="text-gray-300 mb-4">"Using this app is like finding a Wi-Fi signal in the middle of nowhere—pure bliss!"</p>
+            <p className="text-gray-300 mb-4">&quot;Using this app is like finding a Wi-Fi signal in the middle of nowhere—pure bliss!&quot;</p>
           </div>
         </div>
 

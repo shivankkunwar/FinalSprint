@@ -53,7 +53,7 @@ export default function ProblemPage({ question }: { question: question }) {
           </span>
           {tags.map((tag, i) => {
             return (
-              <span className="px-3 py-1 text-sm bg-purple-100 text-purple-800 rounded-full">
+              <span  key={i} className="px-3 py-1 text-sm bg-purple-100 text-purple-800 rounded-full">
                 {tag}
               </span>
             );
